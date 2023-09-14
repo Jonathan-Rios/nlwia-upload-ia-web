@@ -1,4 +1,4 @@
-<h1 align="center">NLW IA - 2023</h1>
+<h1 align="center">NLW IA - WEB</h1>
 
 <p align="center">
   <img 
@@ -48,16 +48,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
  
-
-## 🚀 Link da aplicação: 
-
-Só acessar \o
-
-https://nlwia-upload-ia-web-jrs.vercel.app/
- 
- 
- 
-## 📝 License
+  ## 📝 License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
 
