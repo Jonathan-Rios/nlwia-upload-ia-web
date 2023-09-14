@@ -30,12 +30,10 @@
 <br>
 
 <h3 align="center">Imagem prévia da aplicação</h3>
-
  
-<video  src=".github/project-preview.mp4" width="640" height="360" controls>
-  Seu navegador não suporta a tag de vídeo.
-</video>
-
+<div align="center">
+  <img src=".github/project-preview.gif?style=flat" alt="Cover" />
+</div>
 
 <br>
 
