@@ -2,12 +2,12 @@
 
 <p align="center">
   <img 
-    src="https://img.shields.io/badge/React-%5E18.2.6-blue" 
-    alt="React Ver. ^18.2.0"
+    src="https://img.shields.io/badge/React-%5E18.2.15-blue" 
+    alt="React Ver. ^18.2.15"
   />
   <img 
-    src="https://img.shields.io/badge/Typescript-%5E4.6.4-blue"
-    alt="Typescript Ver. 5.0.4" 
+    src="https://img.shields.io/badge/Typescript-%5E5.0.2-blue"
+    alt="Typescript Ver. 5.0.2" 
   />
   <img
     src="https://img.shields.io/badge/NLWIA-2023-green" 
@@ -40,6 +40,7 @@
 ## 💻 Projeto
 Essa aplicação foi desenvolvida para estudos seguindo os ensinamentos da **[Rocketseat](https://www.rocketseat.com.br/)** na semana NLWIA.
 
+Aplicação para auxiliar na criação de títulos, descrições de vídeos (ou o que quiser configurar) usando IA do ChatGPT, basta fazer o upload que ela obtém o audio e te retorna opções para você escolher.
 
 ## 🧪 Tecnologias
 
@@ -47,8 +48,32 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
- 
-  ## 📝 License
+- [Shadcn](https://ui.shadcn.com/)
+- [Tailwind](https://tailwindcss.com/)
+- [OpenAI-Api](https://openai.com/)
+
+## 🚀 Como executar
+Esse projeto precisa da api para funcionar, que é encontrada nesse [repositório](https://github.com/Jonathan-Rios/nlwia-upload-ia-api.git).
+
+Clone o projeto e acesse a pasta do mesmo.
+
+```bash
+$ git clone https://github.com/Jonathan-Rios/nlwia-upload-ia-web.git
+
+$ cd nlwia-upload-ia-web
+```
+
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ npm run dev
+```
+- Aparecerá no terminal o link de acesso da aplicação, geralmente na porta http://localhost:5173/.
+
+## 📝 License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
 
@@ -66,7 +91,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
     ✔ Select a framework: › React
     ✔ Select a variant: › TypeScript
 
-
   #Instalando configs para o shadcn: https://ui.shadcn.com/docs/installation/vite
   ➜ npm install -D tailwindcss postcss autoprefixer
   ➜ npx tailwindcss init -p
@@ -82,8 +106,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
       ✔ Configure the import alias for utils: … @/lib/utils
       ✔ Are you using React Server Components? … no / yes
       ✔ Write configuration to components.json. Proceed? … yes
-￼
-    
+      
   ➜ npx shadcn-ui@latest add button
   ➜ npx shadcn-ui@latest add separator
   ➜ npx shadcn-ui@latest add textarea
@@ -92,7 +115,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
   ➜ npx shadcn-ui@latest add slider
   
   ➜ npm i lucide-react
-
 
   # https://github.com/ffmpegwasm/ffmpeg.wasm
   ➜ npm install @ffmpeg/ffmpeg @ffmpeg/util
