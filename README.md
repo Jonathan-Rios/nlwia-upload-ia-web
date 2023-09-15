@@ -51,6 +51,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Shadcn](https://ui.shadcn.com/)
 - [Tailwind](https://tailwindcss.com/)
 - [OpenAI-Api](https://openai.com/)
+- [FFmpeg.wasm (WebAssembly)](https://github.com/ffmpegwasm/ffmpeg.wasm)
+
 
 ## 🚀 Como executar
 Esse projeto precisa da api para funcionar, que é encontrada nesse [repositório](https://github.com/Jonathan-Rios/nlwia-upload-ia-api.git).
