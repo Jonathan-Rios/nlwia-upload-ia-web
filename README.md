@@ -87,7 +87,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
 <h3>Criando o projeto e suas dependências </h3>
 
 ```bash
-  # Criando o projeto com NextJS
+  # Criando o projeto com Vite
   ➜ npm create vite
     ✔ Project name: … upload-ia-web
     ✔ Select a framework: › React
